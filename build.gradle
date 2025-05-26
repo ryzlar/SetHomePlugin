@@ -7,6 +7,7 @@ group = 'com.ryzlar'
 version = '1.0-SNAPSHOT'
 
 repositories {
+
     mavenCentral()
     maven {
         name = "spigotmc-repo"
@@ -20,6 +21,7 @@ repositories {
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT")
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 }
 
 tasks {

@@ -1,4 +1,15 @@
 name: SetHomePlugin
-version: '1.0-SNAPSHOT'
+version: 1.0
 main: com.ryzlar.setHomePlugin.SetHomePlugin
-api-version: '1.21'
+api-version: 1.20
+commands:
+  sethome:
+    description: Slaat je locatie op als home
+  home:
+    description: Teleporteer naar een opgeslagen home
+  homelist:
+    description: Bekijk een lijst van je homes
+  delhome:
+    description: Verwijdert een specifieke home
+  renamehome:
+    description: Hernoem een bestaande home
