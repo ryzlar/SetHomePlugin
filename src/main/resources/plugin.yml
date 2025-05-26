@@ -1,0 +1,4 @@
+name: SetHomePlugin
+version: '1.0-SNAPSHOT'
+main: com.ryzlar.setHomePlugin.SetHomePlugin
+api-version: '1.21'
